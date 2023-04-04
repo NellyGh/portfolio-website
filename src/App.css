@@ -1,38 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,700;1,500&family=Poppins:wght@800&family=Roboto+Slab:wght@500&display=swap');
+
+* {
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+body  {
+   background-color: #23272F;
+}
+
+.dark-mode {
+   background-image:linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+   background-blend-mode: normal, lighten, soft-light;
+}
+
+
+
 .App {
-  text-align: center;
+   max-width:1300px;
+   z-index:999;
+   position:relative
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.err-page {
+   width:500px;
+   margin:30px auto;
+   z-index:999;
+   position:relative
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.err-title {
+   text-transform: uppercase;
+   font-family: IBM Plex Mono;
+   color: #f79205;
+   font-size:5rem
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.err-txt {
+   font-family: IBM Plex Mono;
+   font-size:1.3rem;
+   margin:5px;
+   text-align: start;
 }
 
-.App-link {
-  color: #61dafb;
+.navigate {
+   font-family: IBM Plex Mono;
+   text-align: end;
+   font-size:1.6rem;
+   color:rgb(246, 94, 0);
+   cursor:pointer;
+   margin:4px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+::-webkit-scrollbar {
+   width: 10px;
+   
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: #f1f1f1;
+   border-radius:10px
+ }
+ 
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: #888;
+   border-radius:10px;
+   
+ }
+ 
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+   background: #555;
+ }
+
+ @media screen and (max-width: 920px) {
+   .app {
+      width:920px
+   }
+ }
+
+ @media screen and (max-width: 780px) {
+   .app {
+      width:780px
+   }
+ }
+ @media screen and (max-width: 420px) {
+   .app {
+      width:420px
+   }
+ }

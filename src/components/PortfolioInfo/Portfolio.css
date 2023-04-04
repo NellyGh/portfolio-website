@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,700;1,500&family=Poppins:wght@800&family=Roboto+Slab:wght@500&display=swap');
+
+.portfolio {
+    display: grid;
+    width:875px;
+    margin:40px auto;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    justify-items: center;
+    gap: 35px;
+}
+
+.portfolio img {
+    object-fit: cover;
+    border-radius:15px;
+    height:300px
+}
+
+.button {
+    margin-left: 44px;
+    font-size:19px
+}
+
+h3 {
+    margin:25px;
+    text-align: center;
+    font-family: IBM Plex Mono;
+    color: #f79205;
+}
+
+@media screen and (max-width: 830px) {
+    .portfolio {
+        grid-template-columns: auto;
+        width:80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .portfolio {
+        grid-template-columns: auto;
+        width:100%;
+    }
+}

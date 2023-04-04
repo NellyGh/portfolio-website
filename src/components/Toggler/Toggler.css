@@ -1,0 +1,19 @@
+.dark-light-item span {
+    font-size: 1.5rem;
+    cursor:pointer
+    
+    
+}
+
+
+.dark-light-item {
+    list-style-type: none;
+    margin-top:19px;
+    transition: all .25s ease;
+    
+}
+
+.dark-light-item:hover {
+    margin-top:7px;
+
+}

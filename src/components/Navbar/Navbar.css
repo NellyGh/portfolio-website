@@ -1,0 +1,52 @@
+.navbar  ul{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    gap:120px;
+    height:70px;
+    z-index:999;
+    position:relative
+   
+}
+
+.bar-icons {
+    display:none
+}
+
+@media screen and (max-width: 920px) {
+    .navbar ul {
+        background-color:#151c2d;
+        height:100%;
+        /* width:920px */
+       
+    }
+    .navbar ul {
+      flex-direction: column-reverse;
+      align-items:flex-end;
+      gap:unset;
+      padding:25px;
+    }
+
+    .navbar ul li {
+       padding:20px;
+    }
+  }
+  
+  @media screen and (max-width: 780px) {
+    .navbar {
+      padding: 5px;
+      
+    }
+
+    .navbar ul {
+        width:100%
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .navbar ul {
+        width:100%
+    }
+  }
+
+
