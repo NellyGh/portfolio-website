@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.6d7b5a4b.css",
-    "main.js": "/portfolio-website/static/js/main.6d8103f6.js",
+    "main.css": "/portfolio-website/static/css/main.f3708116.css",
+    "main.js": "/portfolio-website/static/js/main.88622f3d.js",
     "static/media/img-7.png": "/portfolio-website/static/media/img-7.0b8e71eac44416b8ecf5.png",
     "static/media/img-3.png": "/portfolio-website/static/media/img-3.fca6b29154ad58231330.png",
     "static/media/nelly.png": "/portfolio-website/static/media/nelly.04dc263a1c1d4960bedc.png",
@@ -11,13 +11,14 @@
     "static/media/insta.jpg": "/portfolio-website/static/media/insta.4ee3f1409847532ca6c6.jpg",
     "static/media/calculator.jpg": "/portfolio-website/static/media/calculator.338876a8d91ae819ec6e.jpg",
     "static/media/game.jpg": "/portfolio-website/static/media/game.526115385268562127c6.jpg",
+    "static/media/todo.jpg": "/portfolio-website/static/media/todo.90f8ecfd5aa2b63a5dee.jpg",
     "static/media/img-4.png": "/portfolio-website/static/media/img-4.e1064b8d54f5149293eb.png",
     "index.html": "/portfolio-website/index.html",
-    "main.6d7b5a4b.css.map": "/portfolio-website/static/css/main.6d7b5a4b.css.map",
-    "main.6d8103f6.js.map": "/portfolio-website/static/js/main.6d8103f6.js.map"
+    "main.f3708116.css.map": "/portfolio-website/static/css/main.f3708116.css.map",
+    "main.88622f3d.js.map": "/portfolio-website/static/js/main.88622f3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d7b5a4b.css",
-    "static/js/main.6d8103f6.js"
+    "static/css/main.f3708116.css",
+    "static/js/main.88622f3d.js"
   ]
 }
