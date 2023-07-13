@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.f3708116.css",
-    "main.js": "/portfolio-website/static/js/main.0fcb336e.js",
+    "main.js": "/portfolio-website/static/js/main.a4d474f2.js",
     "static/media/img-7.png": "/portfolio-website/static/media/img-7.0b8e71eac44416b8ecf5.png",
     "static/media/img-3.png": "/portfolio-website/static/media/img-3.fca6b29154ad58231330.png",
     "static/media/nelly.png": "/portfolio-website/static/media/nelly.04dc263a1c1d4960bedc.png",
     "static/media/img-6.png": "/portfolio-website/static/media/img-6.98b7d2c1b7eb125fc0b6.png",
     "static/media/timer.jpg": "/portfolio-website/static/media/timer.fb13005c2c876bccdd4b.jpg",
+    "static/media/online-shop.jpg": "/portfolio-website/static/media/online-shop.272a19882473c904fad7.jpg",
     "static/media/img-5.png": "/portfolio-website/static/media/img-5.93be27d2fefd3fc097ac.png",
     "static/media/insta.jpg": "/portfolio-website/static/media/insta.4ee3f1409847532ca6c6.jpg",
     "static/media/calculator.jpg": "/portfolio-website/static/media/calculator.338876a8d91ae819ec6e.jpg",
@@ -15,10 +16,10 @@
     "static/media/img-4.png": "/portfolio-website/static/media/img-4.e1064b8d54f5149293eb.png",
     "index.html": "/portfolio-website/index.html",
     "main.f3708116.css.map": "/portfolio-website/static/css/main.f3708116.css.map",
-    "main.0fcb336e.js.map": "/portfolio-website/static/js/main.0fcb336e.js.map"
+    "main.a4d474f2.js.map": "/portfolio-website/static/js/main.a4d474f2.js.map"
   },
   "entrypoints": [
     "static/css/main.f3708116.css",
-    "static/js/main.0fcb336e.js"
+    "static/js/main.a4d474f2.js"
   ]
 }
